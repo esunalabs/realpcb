@@ -1,0 +1,5 @@
+*.kicad_pcb linguist-generated -diff
+*.kicad_dru linguist-language=Text
+*.kicad_pro linguist-generated
+start-drc.json linguist-generated -diff
+*.png binary

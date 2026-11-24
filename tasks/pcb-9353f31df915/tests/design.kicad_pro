@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "filename": "design.kicad_pro",
+    "version": 3
+  },
+  "board": {
+    "design_settings": {
+      "rule_severities": {
+        "silk_over_copper": "error",
+        "silk_edge_clearance": "error",
+        "text_height": "error",
+        "text_thickness": "error",
+        "courtyards_overlap": "error",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
+        "silk_overlap": "warning",
+        "missing_courtyard": "warning",
+        "malformed_courtyard": "ignore",
+        "unresolved_variable": "ignore"
+      },
+      "rules": {
+        "min_via_diameter": 0.4498,
+        "min_through_hole_diameter": 0.0,
+        "min_via_annular_width": 0.0
+      }
+    }
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.0999
+      }
+    ]
+  }
+}
